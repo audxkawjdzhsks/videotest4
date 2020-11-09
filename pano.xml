@@ -1,323 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="17253" start="node1" appversion="6.0.2">
+<tour appversion="6.0.2" apprev="17253" start="node1">
   <panorama id="node1">
-    <input levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" overlap="1" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1024" width="1024">
-      <level predecode="0" height="1024" width="1024" preload="0"/>
-      <level predecode="0" height="512" width="512" preload="0"/>
-      <level predecode="1" height="256" width="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="256" leveltilesize="510" levelingroll="0" overlap="1" height="256" levelingpitch="0" levelbias="0.400">
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" pan="360" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata info="" latitude="" copyright="" longitude="" datetime="" tags="Pano2VR6" customnodeid="" description="" author="" source="" title="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" textalpha="1" background="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <hotspot pan="-0.27" id="Point01" tilt="0.59" skinid="ht_node" description="50주년 기념식 영상" url="{node2}" title="2.메인 영상 홀" target="0.0/0.0/70.0"/>
+    <userdata description="" info="" author="" datetime="" longitude="" source="" tags="Pano2VR6" copyright="" latitude="" title="" comment="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" enabled="1" borderradius="1" backgroundalpha="1" borderalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" border="1" textalpha="1" wordwrap="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot description="50주년 기념식 영상" tilt="0.59" pan="-0.27" target="0.0/0.0/70.0" url="{node2}" id="Point01" title="2.메인 영상 홀" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" softedge="0" type="crossdissolve" zoomout="0" blendcolor="0x000000" enabled="1" zoomin="0" zoomspeed="2" zoomoutpause="1"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8" hideabout="0" speedwheel="1" lockedwheel="0" simulatemass="1" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboardzoom="0"/>
+    <transition blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" contextprojections="0" lockedmouse="0" hideabout="0" dblclickfullscreen="0" invertwheel="0" simulatemass="1" speedwheel="1" sensitivity="8" lockedkeyboard="0" contextfullscreen="1" rubberband="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" overlap="1" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1024" width="1024">
-      <level predecode="0" height="1024" width="1024" preload="0"/>
-      <level predecode="0" height="512" width="512" preload="0"/>
-      <level predecode="1" height="256" width="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="256" leveltilesize="510" levelingroll="0" overlap="1" height="256" levelingpitch="0" levelbias="0.400">
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" pan="360" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata info="" latitude="" copyright="" longitude="" datetime="" tags="Pano2VR6" customnodeid="" description="" author="" source="" title="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" textalpha="1" background="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <hotspot pan="-179.12" id="Point01" tilt="-0.68" skinid="ht_node" description="" url="{node1}" title="1.입구" target="0.0/0.0/64.2"/>
-      <hotspot pan="-38.97" id="Point02" tilt="-3.8" skinid="ht_node" description="" url="{node3}" title="3. 50주년 전시 소개 및 연혁 소개" target="0.3/1.3/84.2"/>
-      <hotspot pan="-360" id="Point04" tilt="2" skinid="ht_video_youtube" description="관세청 50주년 기념식 영상." url="https://youtu.be/yVYNriNvVYw" title="50주년 영상" target="_blank"/>
+    <userdata description="" info="" author="" datetime="" longitude="" source="" tags="Pano2VR6" copyright="" latitude="" title="" comment="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" enabled="1" borderradius="1" backgroundalpha="1" borderalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" border="1" textalpha="1" wordwrap="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot description="" tilt="-0.68" pan="-179.12" target="0.0/0.0/64.2" url="{node1}" id="Point01" title="1.입구" skinid="ht_node"/>
+      <hotspot description="" tilt="-3.8" pan="-38.97" target="0.3/1.3/84.2" url="{node3}" id="Point02" title="3. 50주년 전시 소개 및 연혁 소개" skinid="ht_node"/>
+      <hotspot description="관세청 50주년 기념식 영상." tilt="2" pan="-360" target="_blank" url="https://youtu.be/yVYNriNvVYw" id="Point04" title="50주년 영상" skinid="ht_video_youtube"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" softedge="0" type="crossdissolve" zoomout="0" blendcolor="0x000000" enabled="1" zoomin="0" zoomspeed="2" zoomoutpause="1"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8" hideabout="0" speedwheel="1" lockedwheel="0" simulatemass="1" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboardzoom="0"/>
+    <transition blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" contextprojections="0" lockedmouse="0" hideabout="0" dblclickfullscreen="0" invertwheel="0" simulatemass="1" speedwheel="1" sensitivity="8" lockedkeyboard="0" contextfullscreen="1" rubberband="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" overlap="1" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1024" width="1024">
-      <level predecode="0" height="1024" width="1024" preload="0"/>
-      <level predecode="0" height="512" width="512" preload="0"/>
-      <level predecode="1" height="256" width="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
-      <video format="equirectangular" startmutedmobile="0" startonload="1" endaction="loop">
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="256" leveltilesize="510" levelingroll="0" overlap="1" height="256" levelingpitch="0" levelbias="0.400">
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+      <video startmutedmobile="0" startonload="1" format="equirectangular" endaction="loop">
         <source url="videos/[SHANA]Camera_03.webm"/>
         <source url="videos/Camera_03.mp4"/>
       </video>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" pan="360" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata info="" latitude="" copyright="" longitude="" datetime="" tags="Pano2VR6" customnodeid="" description="" author="" source="" title="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" textalpha="1" background="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <hotspot pan="-115.62" id="Point01" tilt="-4.69" skinid="ht_node" description="50주년 기념식 영상" url="{node2}" title="2. 메인 영상 홀" target="0.0/0.0/70.0"/>
-      <hotspot pan="-277.46" id="Point02" tilt="-1.13" skinid="ht_node" description="개항과 세관" url="{node4}" title="4. 개항과 세관" target=""/>
+    <userdata description="" info="" author="" datetime="" longitude="" source="" tags="Pano2VR6" copyright="" latitude="" title="" comment="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" enabled="1" borderradius="1" backgroundalpha="1" borderalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" border="1" textalpha="1" wordwrap="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot description="50주년 기념식 영상" tilt="-4.69" pan="-115.62" target="0.0/0.0/70.0" url="{node2}" id="Point01" title="2. 메인 영상 홀" skinid="ht_node"/>
+      <hotspot description="개항과 세관" tilt="-1.13" pan="-277.46" target="" url="{node4}" id="Point02" title="4. 개항과 세관" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" softedge="0" type="crossdissolve" zoomout="0" blendcolor="0x000000" enabled="1" zoomin="0" zoomspeed="2" zoomoutpause="1"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8" hideabout="0" speedwheel="1" lockedwheel="0" simulatemass="1" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboardzoom="0"/>
+    <transition blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" contextprojections="0" lockedmouse="0" hideabout="0" dblclickfullscreen="0" invertwheel="0" simulatemass="1" speedwheel="1" sensitivity="8" lockedkeyboard="0" contextfullscreen="1" rubberband="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" overlap="1" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1024" width="1024">
-      <level predecode="0" height="1024" width="1024" preload="0"/>
-      <level predecode="0" height="512" width="512" preload="0"/>
-      <level predecode="1" height="256" width="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
-      <video format="equirectangular" startmutedmobile="0" startonload="1" endaction="loop">
-        <source url="videos/[SHANA]Camera_04.webm"/>
-        <source url="videos/Camera_04.mp4"/>
+    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="256" leveltilesize="510" levelingroll="0" overlap="1" height="256" levelingpitch="0" levelbias="0.400">
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+      <video startmutedmobile="0" startonload="1" format="equirectangular" endaction="loop">
+        <source url="videos/[SHANA]Camera_04fix.webm"/>
+        <source url="videos/Camera_04fix.mp4"/>
       </video>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="0" fov="70" projection="4"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="0" pan="0" projection="4" fov="70"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" pan="360" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata info="" latitude="" copyright="" longitude="" datetime="" tags="Pano2VR6" customnodeid="" description="" author="" source="" title="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" textalpha="1" background="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <hotspot pan="-60.88" id="Point02" tilt="-1.74" skinid="ht_node" description="" url="{node3}" title="3. 50주년 전시 소개 및 연혁 소개" target="0.3/1.3/84.2"/>
-      <hotspot pan="-114.97" id="Point01" tilt="-0.08" skinid="ht_node" description="세계로 뻗어가는 세관" url="{node7}" title="9. 세계로 뻗어가는 세관" target=""/>
-      <hotspot pan="-188.41" id="Point03" tilt="1.12" skinid="ht_node" description="" url="{node6}" title="7. 밀수의 역사" target=""/>
-      <hotspot pan="-260.95" id="Point04" tilt="1.82" skinid="ht_node" description="" url="{node5}" title="6. 세관의 발전" target=""/>
-      <hotspot pan="-157.9" id="Point05" tilt="-48.25" skinid="ht_node" description="" url="{node8}" title="10. 중앙 센터" target=""/>
-      <hotspot pan="-133.25" id="Point06" tilt="1.29" skinid="ht_node" description="" url="{node9}" title="8. 밀수 신문기록" target=""/>
-      <hotspot pan="-312.39" id="Point07" tilt="1.66" skinid="ht_node" description="" url="{node10}" title="5. 역대 총장소개" target=""/>
+    <userdata description="" info="" author="" datetime="" longitude="" source="" tags="Pano2VR6" copyright="" latitude="" title="" comment="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" enabled="1" borderradius="1" backgroundalpha="1" borderalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" border="1" textalpha="1" wordwrap="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot description="" tilt="-1.74" pan="-60.88" target="0.3/1.3/84.2" url="{node3}" id="Point02" title="3. 50주년 전시 소개 및 연혁 소개" skinid="ht_node"/>
+      <hotspot description="" tilt="1.82" pan="-260.95" target="" url="{node5}" id="Point04" title="6. 세관의 발전" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" softedge="0" type="crossdissolve" zoomout="0" blendcolor="0x000000" enabled="1" zoomin="0" zoomspeed="2" zoomoutpause="1"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8" hideabout="0" speedwheel="1" lockedwheel="0" simulatemass="1" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboardzoom="0"/>
+    <transition blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" contextprojections="0" lockedmouse="0" hideabout="0" dblclickfullscreen="0" invertwheel="0" simulatemass="1" speedwheel="1" sensitivity="8" lockedkeyboard="0" contextfullscreen="1" rubberband="0"/>
   </panorama>
   <panorama id="node5">
-    <input levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" overlap="1" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1024" width="1024">
-      <level predecode="0" height="1024" width="1024" preload="0"/>
-      <level predecode="0" height="512" width="512" preload="0"/>
-      <level predecode="1" height="256" width="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
-      <video format="equirectangular" startmutedmobile="0" startonload="1" endaction="loop">
-        <source url="videos/[SHANA]Camera_05.webm"/>
-        <source url="videos/Camera_05.mp4"/>
+    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="256" leveltilesize="510" levelingroll="0" overlap="1" height="256" levelingpitch="0" levelbias="0.400">
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+      <video startmutedmobile="0" startonload="1" format="equirectangular" endaction="loop">
+        <source url="videos/[SHANA]Camera_05fix.webm"/>
+        <source url="videos/Camera_05fix.mp4"/>
       </video>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" pan="360" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata info="" latitude="" copyright="" longitude="" datetime="" tags="Pano2VR6" customnodeid="" description="" author="" source="" title="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" textalpha="1" background="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <hotspot pan="-103.58" id="Point02" tilt="0.33" skinid="ht_node" description="개항과 세관" url="{node4}" title="4. 개항과 세관" target=""/>
-      <hotspot pan="-183.45" id="Point01" tilt="1.07" skinid="ht_node" description="세계로 뻗어가는 세관" url="{node7}" title="9. 세계로 뻗어가는 세관" target=""/>
-      <hotspot pan="-276.28" id="Point03" tilt="1.64" skinid="ht_node" description="" url="{node6}" title="7. 밀수의 역사" target=""/>
-      <hotspot pan="-205.67" id="Point06" tilt="1.01" skinid="ht_node" description="" url="{node9}" title="8. 밀수 신문기록" target=""/>
-      <hotspot pan="-136.01" id="Point02" tilt="-1.47" skinid="ht_node" description="" url="{node3}" title="3. 50주년 전시 소개 및 연혁 소개" target="0.3/1.3/84.2"/>
-      <hotspot pan="-112.75" id="Point05" tilt="-40.42" skinid="ht_node" description="" url="{node8}" title="10. 중앙 센터" target=""/>
-      <hotspot pan="-58.74" id="Point07" tilt="1.51" skinid="ht_node" description="" url="{node10}" title="5. 역대 총장소개" target=""/>
+    <userdata description="" info="" author="" datetime="" longitude="" source="" tags="Pano2VR6" copyright="" latitude="" title="" comment="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" enabled="1" borderradius="1" backgroundalpha="1" borderalpha="1" height="20" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" border="1" textalpha="1" wordwrap="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot description="개항과 세관" tilt="0.33" pan="-103.58" target="" url="{node4}" id="Point02" title="4. 개항과 세관" skinid="ht_node"/>
+      <hotspot description="" tilt="-1.47" pan="-136.01" target="0.3/1.3/84.2" url="{node3}" id="Point02" title="3. 50주년 전시 소개 및 연혁 소개" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="20" softedge="0" type="crossdissolve" zoomout="0" blendcolor="0x000000" enabled="1" zoomin="0" zoomspeed="2" zoomoutpause="1"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8" hideabout="0" speedwheel="1" lockedwheel="0" simulatemass="1" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboardzoom="0"/>
-  </panorama>
-  <panorama id="node6">
-    <input levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" overlap="1" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1024" width="1024">
-      <level predecode="0" height="1024" width="1024" preload="0"/>
-      <level predecode="0" height="512" width="512" preload="0"/>
-      <level predecode="1" height="256" width="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
-      <video format="equirectangular" startmutedmobile="0" startonload="1" endaction="loop">
-        <source url="videos/[SHANA]Camera_06.webm"/>
-        <source url="videos/Camera_06.mp4"/>
-      </video>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
-    </view>
-    <userdata info="" latitude="" copyright="" longitude="" datetime="" tags="Pano2VR6" customnodeid="" description="" author="" source="" title="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" textalpha="1" background="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <hotspot pan="-176.87" id="Point02" tilt="2.15" skinid="ht_node" description="개항과 세관" url="{node4}" title="4. 개항과 세관" target=""/>
-      <hotspot pan="-91.9" id="Point04" tilt="1.7" skinid="ht_node" description="" url="{node5}" title="6. 세관의 발전" target=""/>
-      <hotspot pan="-290.66" id="Point01" tilt="0.85" skinid="ht_node" description="세계로 뻗어가는 세관" url="{node7}" title="9. 세계로 뻗어가는 세관" target=""/>
-      <hotspot pan="-315.88" id="Point06" tilt="1.42" skinid="ht_node" description="" url="{node9}" title="8. 밀수 신문기록" target=""/>
-      <hotspot pan="-225.79" id="Point02" tilt="-2.13" skinid="ht_node" description="" url="{node3}" title="3. 50주년 전시 소개 및 연혁 소개" target="0.3/1.3/84.2"/>
-      <hotspot pan="-112.8" id="Point05" tilt="-40.39" skinid="ht_node" description="" url="{node8}" title="10. 중앙 센터" target=""/>
-      <hotspot pan="-129.81" id="Point07" tilt="0.79" skinid="ht_node" description="" url="{node10}" title="5. 역대 총장소개" target=""/>
-    </hotspots>
-    <media/>
-    <transition blendtime="1" zoomfov="20" softedge="0" type="crossdissolve" zoomout="0" blendcolor="0x000000" enabled="1" zoomin="0" zoomspeed="2" zoomoutpause="1"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8" hideabout="0" speedwheel="1" lockedwheel="0" simulatemass="1" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboardzoom="0"/>
-  </panorama>
-  <panorama id="node7">
-    <input levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" overlap="1" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1024" width="1024">
-      <level predecode="0" height="1024" width="1024" preload="0"/>
-      <level predecode="0" height="512" width="512" preload="0"/>
-      <level predecode="1" height="256" width="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
-      <video format="equirectangular" startmutedmobile="0" startonload="1" endaction="loop">
-        <source url="videos/[SHANA]Camera_07.webm"/>
-        <source url="videos/Camera_07.mp4"/>
-      </video>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
-    </view>
-    <userdata info="" latitude="" copyright="" longitude="" datetime="" tags="Pano2VR6" customnodeid="" description="" author="" source="" title="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" textalpha="1" background="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <hotspot pan="-263.08" id="Point02" tilt="1.91" skinid="ht_node" description="개항과 세관" url="{node4}" title="4. 개항과 세관" target=""/>
-      <hotspot pan="-184.55" id="Point04" tilt="1.76" skinid="ht_node" description="" url="{node5}" title="6. 세관의 발전" target=""/>
-      <hotspot pan="-120.58" id="Point03" tilt="1.16" skinid="ht_node" description="" url="{node6}" title="7. 밀수의 역사" target=""/>
-      <hotspot pan="-47.02" id="Point06" tilt="1.57" skinid="ht_node" description="" url="{node9}" title="8. 밀수 신문기록" target=""/>
-      <hotspot pan="-311.36" id="Point02" tilt="-2.4" skinid="ht_node" description="" url="{node3}" title="3. 50주년 전시 소개 및 연혁 소개" target="0.3/1.3/84.2"/>
-      <hotspot pan="-190.53" id="Point05" tilt="-43.44" skinid="ht_node" description="" url="{node8}" title="10. 중앙 센터" target=""/>
-      <hotspot pan="-219.48" id="Point07" tilt="1.07" skinid="ht_node" description="" url="{node10}" title="5. 역대 총장소개" target=""/>
-    </hotspots>
-    <media/>
-    <transition blendtime="1" zoomfov="20" softedge="0" type="crossdissolve" zoomout="0" blendcolor="0x000000" enabled="1" zoomin="0" zoomspeed="2" zoomoutpause="1"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8" hideabout="0" speedwheel="1" lockedwheel="0" simulatemass="1" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboardzoom="0"/>
-  </panorama>
-  <panorama id="node8">
-    <input levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" overlap="1" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1024" width="1024">
-      <level predecode="0" height="1024" width="1024" preload="0"/>
-      <level predecode="0" height="512" width="512" preload="0"/>
-      <level predecode="1" height="256" width="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
-      <video format="equirectangular" startmutedmobile="0" startonload="1" endaction="loop">
-        <source url="videos/[SHANA]Camera_08.webm"/>
-        <source url="videos/Camera_08.mp4"/>
-      </video>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
-    </view>
-    <userdata info="" latitude="" copyright="" longitude="" datetime="" tags="Pano2VR6" customnodeid="" description="" author="" source="" title="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" textalpha="1" background="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <hotspot pan="-272.4" id="Point02" tilt="3.06" skinid="ht_node" description="개항과 세관" url="{node4}" title="4. 개항과 세관" target=""/>
-      <hotspot pan="-180.58" id="Point04" tilt="1.91" skinid="ht_node" description="" url="{node5}" title="6. 세관의 발전" target=""/>
-      <hotspot pan="-21.67" id="Point01" tilt="2.06" skinid="ht_node" description="세계로 뻗어가는 세관" url="{node7}" title="9. 세계로 뻗어가는 세관" target=""/>
-      <hotspot pan="-110.76" id="Point03" tilt="0.54" skinid="ht_node" description="" url="{node6}" title="7. 밀수의 역사" target=""/>
-      <hotspot pan="-43.94" id="Point06" tilt="1.5" skinid="ht_node" description="" url="{node9}" title="8. 밀수 신문기록" target=""/>
-      <hotspot pan="-318.97" id="Point02" tilt="-1.79" skinid="ht_node" description="" url="{node3}" title="3. 50주년 전시 소개 및 연혁 소개" target="0.3/1.3/84.2"/>
-      <hotspot pan="-221.1" id="Point07" tilt="0.93" skinid="ht_node" description="" url="{node10}" title="5. 역대 총장소개" target=""/>
-    </hotspots>
-    <media/>
-    <transition blendtime="1" zoomfov="20" softedge="0" type="crossdissolve" zoomout="0" blendcolor="0x000000" enabled="1" zoomin="0" zoomspeed="2" zoomoutpause="1"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8" hideabout="0" speedwheel="1" lockedwheel="0" simulatemass="1" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboardzoom="0"/>
-  </panorama>
-  <panorama id="node10">
-    <input levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" overlap="1" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1024" width="1024">
-      <level predecode="0" height="1024" width="1024" preload="0"/>
-      <level predecode="0" height="512" width="512" preload="0"/>
-      <level predecode="1" height="256" width="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
-      <video format="equirectangular" startmutedmobile="0" startonload="1" endaction="loop">
-        <source url="videos/[SHANA]Camera_09.webm"/>
-        <source url="videos/Camera_09.mp4"/>
-      </video>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
-    </view>
-    <userdata info="" latitude="" copyright="" longitude="" datetime="" tags="Pano2VR6" customnodeid="" description="" author="" source="" title="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" textalpha="1" background="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <hotspot pan="-123.5" id="Point02" tilt="1.03" skinid="ht_node" description="" url="{node3}" title="3. 50주년 전시 소개 및 연혁 소개" target="0.3/1.3/84.2"/>
-      <hotspot pan="-165.61" id="Point01" tilt="4.46" skinid="ht_node" description="세계로 뻗어가는 세관" url="{node7}" title="9. 세계로 뻗어가는 세관" target=""/>
-      <hotspot pan="-177.45" id="Point06" tilt="5.18" skinid="ht_node" description="" url="{node9}" title="8. 밀수 신문기록" target=""/>
-      <hotspot pan="-213.34" id="Point03" tilt="4.12" skinid="ht_node" description="" url="{node6}" title="7. 밀수의 역사" target=""/>
-      <hotspot pan="-262.41" id="Point04" tilt="1.78" skinid="ht_node" description="" url="{node5}" title="6. 세관의 발전" target=""/>
-      <hotspot pan="-180.89" id="Point05" tilt="-11.39" skinid="ht_node" description="" url="{node8}" title="10. 중앙 센터" target=""/>
-      <hotspot pan="-105.64" id="Point02" tilt="2.01" skinid="ht_node" description="개항과 세관" url="{node4}" title="4. 개항과 세관" target=""/>
-    </hotspots>
-    <media/>
-    <transition blendtime="1" zoomfov="20" softedge="0" type="crossdissolve" zoomout="0" blendcolor="0x000000" enabled="1" zoomin="0" zoomspeed="2" zoomoutpause="1"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8" hideabout="0" speedwheel="1" lockedwheel="0" simulatemass="1" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboardzoom="0"/>
-  </panorama>
-  <panorama id="node9">
-    <input levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" overlap="1" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="1024" width="1024">
-      <level predecode="0" height="1024" width="1024" preload="0"/>
-      <level predecode="0" height="512" width="512" preload="0"/>
-      <level predecode="1" height="256" width="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
-      <video format="equirectangular" startmutedmobile="0" startonload="1" endaction="loop">
-        <source url="videos/[SHANA]Camera_10.webm"/>
-        <source url="videos/Camera_10.mp4"/>
-      </video>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
-    </view>
-    <userdata info="" latitude="" copyright="" longitude="" datetime="" tags="Pano2VR6" customnodeid="" description="" author="" source="" title="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label borderradius="1" borderalpha="1" textcolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" border="1" width="180" bordercolor="0x000000" textalpha="1" background="1" wordwrap="1"/>
-      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
-      <hotspot pan="-203.93" id="Point02" tilt="0.68" skinid="ht_node" description="개항과 세관" url="{node4}" title="4. 개항과 세관" target=""/>
-      <hotspot pan="-151.27" id="Point04" tilt="0.24" skinid="ht_node" description="" url="{node5}" title="6. 세관의 발전" target=""/>
-      <hotspot pan="-286.55" id="Point01" tilt="1.87" skinid="ht_node" description="세계로 뻗어가는 세관" url="{node7}" title="9. 세계로 뻗어가는 세관" target=""/>
-      <hotspot pan="-113.35" id="Point03" tilt="-0.01" skinid="ht_node" description="" url="{node6}" title="7. 밀수의 역사" target=""/>
-      <hotspot pan="-234.71" id="Point02" tilt="-2.23" skinid="ht_node" description="" url="{node3}" title="3. 50주년 전시 소개 및 연혁 소개" target="0.3/1.3/84.2"/>
-      <hotspot pan="-175.82" id="Point05" tilt="-13.7" skinid="ht_node" description="" url="{node8}" title="10. 중앙 센터" target=""/>
-      <hotspot pan="-175.67" id="Point07" tilt="0.2" skinid="ht_node" description="" url="{node10}" title="5. 역대 총장소개" target=""/>
-    </hotspots>
-    <media/>
-    <transition blendtime="1" zoomfov="20" softedge="0" type="crossdissolve" zoomout="0" blendcolor="0x000000" enabled="1" zoomin="0" zoomspeed="2" zoomoutpause="1"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8" hideabout="0" speedwheel="1" lockedwheel="0" simulatemass="1" contextprojections="0" rubberband="0" invertcontrol="1" lockedkeyboardzoom="0"/>
+    <transition blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" contextprojections="0" lockedmouse="0" hideabout="0" dblclickfullscreen="0" invertwheel="0" simulatemass="1" speedwheel="1" sensitivity="8" lockedkeyboard="0" contextfullscreen="1" rubberband="0"/>
   </panorama>
   <masternode>
-    <userdata info="" latitude="" copyright="" longitude="" datetime="" tags="" customnodeid="" description="" author="" source="" title="" comment=""/>
+    <userdata description="" info="" author="" datetime="" longitude="" source="" tags="" copyright="" latitude="" title="" comment="" customnodeid=""/>
   </masternode>
 </tour>
